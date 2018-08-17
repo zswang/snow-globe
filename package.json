@@ -1,0 +1,18 @@
+{
+  "name": "snow-globe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && uglifyjs lib/index.js -o ./lib/index.min.js && jdists ./example/index.jdists.html -o ./example/index.html"
+  },
+  "author": "zswang",
+  "license": "ISC",
+  "devDependencies": {
+    "jdists": "^2.2.3",
+    "typescript": "^3.0.1",
+    "uglify-js": "^3.4.7"
+  }
+}
