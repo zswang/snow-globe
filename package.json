@@ -11,7 +11,7 @@
   "author": "zswang",
   "license": "ISC",
   "devDependencies": {
-    "jdists": "^2.2.3",
+    "jdists": "^2.2.4",
     "typescript": "^3.0.1",
     "uglify-js": "^3.4.7"
   }
